@@ -6,7 +6,8 @@
 4. header arama motoru bayilere gore aranacalk 
 5. Google yüzerinde kayıt olma ekleme yapalım mı?
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa640772-502b-47b8-9a0b-f1d759afb423/dee85ffc-8931-4267-a2b4-27253e8b6cac/Untitled.png)
+![Untitled](https://github.com/malibuduck/AkademiDunyasi/assets/98706585/fcca8993-9bd6-4097-9d17-339fcf8ca845)
+
 
 şimdi 
 
@@ -18,4 +19,5 @@ Form yapıldığı işlem botlara karşı:
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa640772-502b-47b8-9a0b-f1d759afb423/7e9dbeeb-666b-4d5c-aa5b-f115673d7da9/Untitled.png)
 
 js ile kontrol eden input eklendi
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa640772-502b-47b8-9a0b-f1d759afb423/9f931448-5125-4ed5-9de4-69faee6dc55b/Untitled.png)
+
+![Untitled (1)](https://github.com/malibuduck/AkademiDunyasi/assets/98706585/f47619ff-ca54-4562-9ea7-6d0a0c8313fc)
