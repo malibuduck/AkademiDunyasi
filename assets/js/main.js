@@ -1595,3 +1595,5 @@ function googleTranslateElementInit() {
     new google.translate.TranslateElement({ pageLanguage: 'tr', includedLanguages: 'ar,en,tr,fr,de,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
 }
 // Get references to the elements
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
