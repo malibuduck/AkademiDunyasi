@@ -22,3 +22,5 @@ js ile kontrol eden input eklendi
 
 ![Untitled (1)](https://github.com/malibuduck/AkademiDunyasi/assets/98706585/248a3f05-54f8-44c3-88aa-d0d6c7ded739)
 
+
+-- form onaylandı tarasarımı hazır.

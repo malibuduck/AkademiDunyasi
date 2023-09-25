@@ -127,7 +127,7 @@
 
     <!-- <div class="preloader">
         <div class="prl-logo">
-            <h1 class="hide1"> <img class="lozad" data-src="assets/images/logo/logo.webp" width="350px" height="350px" alt=""> </h1>
+            <h1 class="hide1"> <img src="assets/images/logo/logo.webp" width="350px" height="350px" alt=""> </h1>
         </div>
         <div class="lightCyan-slider"></div>
         <div class="persianGreen-slider"></div>
@@ -1208,7 +1208,7 @@
                                                             <div class="nav-category-item">
                                                                 <div class="thumbnail">
                                                                     <div class="image"><img
-                                                                        class="lozad" data-srcc="assets/images/course/category-1.png"
+                                                                        class="lozad" data-src="assets/images/course/category-1.png"
                                                                             alt="Course images"></div>
                                                                     <a href="course-masonry.html">
                                                                         <span>Kurslar</span>
@@ -1771,38 +1771,19 @@
                                             </div>
                                             <h1 class="title w-700">Hey! Kariyerinizi Oluşturun <br> <strong
                                                     class="color-white">Akademi Dünyası ile</strong></h1>
-                                            <div class="button-group mt--30">
-                                                <a class="rbt-btn btn-gradient rbt-marquee-btn" href="#">
-                                                    <span data-text="Üniversite Hakkında Daha Fazla Bilgi">Üniversite
-                                                        Hakkında Daha Fazla Bilgi</span>
-                                                </a>
+                                            <div class="button-group mt--30-1">
+                                                <div class="search-main">
+                                                    <form action="#" class="rbt-search-style-1 search-form">
+                                                        <input type="text" placeholder="Sitenin hızlı navigasionu" id="serachInput">
+                                                        <button class="search-btn"><i class="feather-search"></i></button>
+                                                    </form>
+                                                    <div id="suggestions" style="display: none;">
+                                                        <div class="search-content">   
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="social-share-wrapper mt--40">
-                                                <ul class="social-icon social-default transparent-with-border">
-                                                    <li><a href="https://www.facebook.com/">
-                                                            <i class="feather-facebook"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li><a href="https://www.twitter.com">
-                                                            <i class="feather-twitter"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li><a href="https://www.instagram.com/">
-                                                            <i class="feather-instagram"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li><a href="https://www.instagram.com/">
-                                                            <i class="feather-youtube"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li><a href="https://www.linkdin.com/">
-                                                            <i class="feather-linkedin"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                                <span class="follow-us-text">Facebook, Twitter, Youtube, Instagram ve
-                                                    LinkedIn Katılın</span>
-                                            </div>
+                                       
                                         </div>
                                     </div>
                                 </div>
@@ -3937,14 +3918,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-12">
-                        <div class="load-more-btn text-start text-lg-end">
-                            <a class="rbt-btn btn-border icon-hover radius-round color-white-off" href="blog.html">
-                                <span class="btn-text">Tüm Makaleleri Gör</span>
-                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                            </a>
-                        </div>
-                    </div>
+                   
                 </div>
                 <div
                     class="swiper service-item-3-activation rbt-arrow-between gutter-swiper-30 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
@@ -4169,7 +4143,6 @@
                         <form action="" id="form-1">
                             <div>
                                 <h4>Ön Başvuru Formu</h4>
-
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
@@ -4180,7 +4153,7 @@
                                     </div>
                                     <div class="col-6">
                                         <div class="form-group">
-                                            <input type="tel" required="">
+                                            <input type="tel" >
                                             <label>Telefon</label>
                                         </div>
                                     </div>
@@ -4200,12 +4173,14 @@
                                 <label for="captcha-form-1">2 + 2 nedir?</label> <br>
                                 <input type="text" name="captcha-form-1" id="captcha-form-1" required>
                                 <div class="form-submit-group my-3">
-                                    <button class="rbt-btn bg-secondary-opacity icon-hover  nasil_btn" type="submit"
+                                    <button class="rbt-btn bg-secondary-opacity icon-hover  nasil_btn"  type="submit"
                                         >
-                                        <span class="btn-text">Gönder</span>
+                                        <span class="btn-text" >Gönder</span>
                                         <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </button>
+                                
                                 </div>
+                            
                             </div>
                         </form>
                      
@@ -4423,7 +4398,7 @@
                             <span data-text="Şimdi satın al">Şimdi satın al</span>
                         </a>
                         <div class="shape-text-image">
-                            <img class="rbt-rotatation-round"  data-src="assets/images/shape/cta-text.png"
+                            <img class="rbt-rotatation-round lozad"  data-src="assets/images/shape/cta-text.png"
                                 alt="Akademi dünya logo">
                         </div>
                     </div>
@@ -4978,7 +4953,7 @@
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-01.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-01.png" alt="">
                         </div>
                     </a>
                 </div>
@@ -4986,7 +4961,7 @@
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-02.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-02.png" alt="">
                         </div>
                     </a>
                 </div>
@@ -4994,7 +4969,7 @@
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-03.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-03.png" alt="">
                         </div>
                     </a>
                 </div>
@@ -5002,49 +4977,49 @@
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-04.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-04.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-05.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-05.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-06.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-06.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-01.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-01.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-01.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-01.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-01.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-01.png" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="single-column-20">
                     <a href="" class="rbt-testimonial-box">
                         <div class=" add_center">
-                            <img src="assets/images/brand/brand-01.png" alt="">
+                            <img class="lozad" data-src="assets/images/brand/brand-01.png" alt="">
                         </div>
                     </a>
                 </div>
@@ -5059,7 +5034,7 @@
                         <div class="inner text-start">
                             <a href="https://themeforest.net/checkout/from_item/42846507?license=regular"
                                 class="rbt-badge-2 mb--20  border-0 shadow-none bg_primary-opacity color-white bounce-slide ">
-                                <div class="image"><img src="assets/images/logo/logo_down.png" alt="İletişim geç"></div>
+                                <div class="image"><img class="lozad" data-src="assets/images/logo/logo_down.png" alt="İletişim geç"></div>
                                 iletişime geç&nbsp; &#62; &nbsp; <i>
                                 </i>
                             </a>
@@ -5080,7 +5055,7 @@
                                 or
                                 subscriptions.</span>
                             <div class="line-shape">
-                                <img src="assets/images/icons/line-shape.png" alt="Line Shape">
+                                <img class="lozad" data-src="assets/images/icons/line-shape.png" alt="Line Shape">
                             </div>
                         </div>
                     </div>
@@ -5095,7 +5070,7 @@
                             <div class="footer-widget">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="assets/images/logo/logo.webp" alt="Akademi Dünyasi logo">
+                                        <img class="lozad" data-src="assets/images/logo/logo.webp" alt="Akademi Dünyasi logo">
                                     </a>
                                 </div>
 

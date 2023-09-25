@@ -1597,3 +1597,61 @@ function googleTranslateElementInit() {
 // Get references to the elements
 const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 observer.observe();
+
+
+
+// Get references to the input field and the suggestion container.
+const input = document.getElementById('serachInput');
+const suggestionContainer = document.getElementById('suggestions');
+
+// Your array of suggestions with corresponding links (replace with your own).
+const suggestions = [
+  { text: 'Mesleki Yeterlilik', link: 'wishlist.html' },
+  { text: 'Turizm ve Otelcilik Kursları', link: 'wishlist.html' },
+  { text: 'Güzellik ve Bakım Kursu', link: 'wishlist.html' },
+  { text: 'Mutfak Sanatları', link: 'wishlist.html' },
+  { text: 'KPSS Kursu', link: 'wishlist.html' },
+  { text: 'ALES - DGS Kursu', link: 'wishlist.html' },
+  { text: 'Açıköğretim Kursu', link: 'wishlist.html' },
+  { text: 'SPK - SMMM Kursu', link: 'wishlist.html' },
+  { text: 'HAKKIMIZDA ', link: 'wishlist.html' },
+  { text: 'Bayilik', link: 'wishlist.html' },
+  { text: 'Sivan Merkezi', link: 'wishlist.html' },
+  { text: 'iletişim', link: 'wishlist.html' },
+  { text: 'Kurslar', link: 'wishlist.html' },
+  { text: 'Blog', link: 'wishlist.html' },
+  { text: 'MYK', link: 'wishlist.html' },
+  { text: 'istek listesi', link: 'wishlist.html' },
+];
+
+// Hide the suggestion container initially.
+suggestionContainer.style.display = 'none';
+
+// Add an event listener to the input field to listen for input changes.
+input.addEventListener('input', function() {
+  // Clear previous suggestions.
+  suggestionContainer.innerHTML = '';
+
+  // Get the current input value.
+  const inputValue = input.value.toLowerCase();
+
+  // Filter and display suggestions that match the input.
+  const matchingSuggestions = suggestions.filter(suggestion =>
+    suggestion.text.toLowerCase().includes(inputValue)
+  );
+
+  // Display suggestion container if there are matching suggestions.
+  if (matchingSuggestions.length > 0) {
+    suggestionContainer.style.display = 'block';
+  } else {
+    suggestionContainer.style.display = 'none';
+  }
+
+  // Create and display suggestion links.
+  matchingSuggestions.forEach(suggestion => {
+    const suggestionLink = document.createElement('a');
+    suggestionLink.textContent = suggestion.text;
+    suggestionLink.href = suggestion.link;
+    suggestionContainer.appendChild(suggestionLink);
+  });
+});
