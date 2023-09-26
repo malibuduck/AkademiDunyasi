@@ -1158,8 +1158,10 @@ ul.rbt-dropdown-menu li:hover .sub-menu {
 .bg-gradient-9 {
   position: relative;
   z-index: 1;
-  background: linear-gradient(270deg, var(--color-secondary) 0%, var(--color-primary) 100%) !important;
+  background: rgb(238,49,55);
+background: radial-gradient(circle, rgba(238,49,55,1) 1%, rgba(255,255,255,1) 85%)!important;
 }
+
 
 .rbt-page-banner-wrapper .rbt-banner-image::after,
 .bg-gradient-9::after {
@@ -1551,7 +1553,7 @@ ul.rbt-dropdown-menu li a {
 }
 
 .bg-gradient-11 {
-  background: linear-gradient(180deg, #eedefd 0%, #ffffff 100%) !important;
+  background: linear-gradient(180deg, var(--color-primary) 0%, #ffffff 100%) !important;
 }
 
 .bg-gradient-12 {
@@ -27491,7 +27493,7 @@ blockquote.has-text-align-right cite,
 }
 
 .height-750 {
-  height: 750px;
+  height: 529px;
   display: flex;
   align-items: center;
 }
@@ -33756,7 +33758,7 @@ body.no-scroll {
 }
 
 .red_text {
-  color: #ef0107;
+  color: white;
 }
 
 .gap_bottom {
