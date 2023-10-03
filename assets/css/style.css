@@ -9145,9 +9145,15 @@ hr {
 }
 
 .bg_image--11 {
-  background-image: url(../images/bg/bg-image-11.jpg);
+  width: 100%;
+  
+  background-image: url(../images/yeni-surum/hakkımızda/a1.webp);
+  background-position: 0 0;
 }
-
+.add-fz{
+  font-size: 60px!important;
+  margin-top: 350px;
+}
 .bg_image--12 {
   background-image: url(../images/bg/bg-image-12.jpg);
 }
@@ -9165,11 +9171,11 @@ hr {
 }
 
 .bg_image--16 {
-  background-image: url(../images/bg/bg-image-16.jpg);
+  background-image: url(../images/yeni-surum/web-anasayfa/a2.webp);
 }
 
 .bg_image--17 {
-  background-image: url(../images/bg/bg-image-17.jpg);
+  background-image: url(../images/yeni-surum/web-anasayfa/a1.webp);
 }
 
 .bg_image--18 {
@@ -9185,12 +9191,9 @@ hr {
 }
 
 .bg_image--21 {
-  background-image: url(../images/bg/bg-image-21.jpg);
+  background-image: url(../images/yeni-surum/web-anasayfa/a3.webp);
 }
 
-.bg_image--22 {
-  background-image: url(../images/bg/bg-image-22.jpg);
-}
 
 .bg_image--23 {
   background-image: url(../images/bg/bg-image-23.jpg);
@@ -12727,7 +12730,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 
 @media (max-width:1242px) {
   .rbt-header-top-news .inner .content .news-text {
-    font-size: 8px;
+    font-size: 13px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -12905,7 +12908,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 }
 
 .rbt-header .logo a img {
-  max-height: 74px;
+  max-height: 47px;
   object-fit: cover;
 }
 
@@ -15433,7 +15436,7 @@ a.rbt-moderbt-btn i {
 }
 
 a.rbt-moderbt-btn:hover {
-  color: var(--color-white);
+  color: var(--color-secondary);
 }
 
 a.rbt-moderbt-btn:hover i {
@@ -21589,7 +21592,7 @@ span.transparent-button:hover i {
 }
 
 .brand-style-3 li {
-  flex-basis: 14.28%;
+  flex-basis: 32.28%;
   text-align: center;
   padding: 10px;
 }
@@ -22552,7 +22555,7 @@ ul.testimonial-thumb-wrapper li a.active .thumb img {
 
 .rbt-testimonial-box .inner {
   position: relative;
-  padding: 50px 40px;
+  padding: 21px 40px;
   z-index: 2;
   background: var(--color-white);
   border-radius: var(--radius);
@@ -22766,7 +22769,7 @@ ul.testimonial-thumb-wrapper li a.active .thumb img {
 }
 
 .rbt-testimonial-box.style-2 .clint-info-wrapper .thumb {
-  height: 47px;
+  height: 88px;
   padding: 2px;
   min-width: 47px;
 }
@@ -25273,12 +25276,12 @@ body.modal-open {
   padding-right: 60px;
   border-radius: 500px;
   min-width: 300px;
-  border: 2px solid var(--color-white);
-  color: var(--color-white);
+  border: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 .rbt-search-style input:focus {
-  border-color: var(--color-white);
+  border-color: var(--color-secondary);
 }
 
 .rbt-search-style .rbt-search-btn {
@@ -25289,7 +25292,7 @@ body.modal-open {
 }
 
 .rbt-search-style .rbt-search-btn i {
-  color: var(--color-white);
+  color: var(--color-secondary);
   transition: 0.3s;
 }
 
@@ -27493,7 +27496,7 @@ blockquote.has-text-align-right cite,
 }
 
 .height-750 {
-  height: 529px;
+  height: 461px;
   display: flex;
   align-items: center;
 }
@@ -32350,7 +32353,7 @@ Course Sidebar
 
 .rbt-splash-callto-action .inner {
   background-color: var(--color-bodyest);
-  background-image: url(../images/splash/cta-01.png);
+  background-image: url(../images/yeni-surum/web-anm/alt.png);
   background-position: center right;
   background-repeat: no-repeat;
   transition:
@@ -32366,7 +32369,7 @@ Course Sidebar
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .rbt-splash-callto-action .inner {
-    background-position: center right -300px;
+    background-position: center right 93px;
   }
 }
 
@@ -33855,8 +33858,8 @@ body.no-scroll {
 .card-back {
   width: 100%;
   height: 138%;
-  background: rgb(239, 1, 7);
-  background: linear-gradient(357deg, rgba(239, 1, 7, 1) 100%, rgba(0, 0, 0, 1) 100%);
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(238,49,55,1) 56%);
   background-size: 300%;
   position: absolute;
   border-radius: 24px;
@@ -33892,6 +33895,8 @@ body.no-scroll {
   padding: 0 23px;
   top: 48%;
   left: 0;
+  overflow-y: scroll;
+  height: 78%;
   transform: translate3d(0, -50%, 35px) perspective(100px);
   display: block;
 }
@@ -35716,7 +35721,7 @@ body.no-scroll {
 
 .add_center {
   width: 100%;
-  height: 226px;
+  height: 146px;
   display: flex;
   position: relative;
   z-index: 2;
@@ -36099,6 +36104,12 @@ text {
   left: 0px;
   right: auto;
 }
+@media (max-width:1156px) {
+  .whatsapp-main{
+    display: none;
+  }
+}
+
 
 .whatsapp-wrapper {
   box-shadow: rgb(0 0 0 / 10%) 0px 12px 24px 0px;
@@ -37062,3 +37073,36 @@ box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.3);
 }
 /* search */
 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+}
+
+video {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* on 992px */
+.mobile-show{
+  display: none;
+
+}
+@media (max-width:648px) {
+  .web-version{
+    display: none;
+  }
+  .mobile-show{
+    display: block;
+  }
+
+}
+/* on 992px end */
+#myTable{
+overflow-y: scroll;
+
+}

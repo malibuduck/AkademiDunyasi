@@ -1537,10 +1537,7 @@ $('.loading-animation').delay(6000).queue(function () {
     $(this).addClass("dinone");
 });
 
-function myFunction() {
-    var element = document.getElementById("bookmark");
-    element.classList.toggle("active_icon");
-}
+
 
 //pup up for map
 $(".selected_text").hover(function () {
@@ -1636,3 +1633,7 @@ input.addEventListener('input', function () {
         suggestionContainer.appendChild(suggestionLink);
     });
 });
+function myFunction() {
+    var element = document.getElementById("bookmark");
+    element.classList.toggle("active_icon");
+}
